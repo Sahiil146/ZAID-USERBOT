@@ -6,13 +6,13 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "22939641")) #optional
+API_HASH = getenv("API_HASH", "8854a48ffd429bd794e070a4d1c12be7") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5036861391").split()))
+OWNER_ID = int(getenv("OWNER_ID", "5659722901"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Suraj:sahil11@sahiil11.rqe6gne.mongodb.net/?retryWrites=true&w=majority")
+BOT_TOKEN = getenv("BOT_TOKEN", "5951338086:AAGHs98bCCWauKr9bYFp7mPMIK2qsmdImzs")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
@@ -21,7 +21,7 @@ GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQClfuQZ3m_32EcIvreHJY9egUP-JxlidhNePQdNpuThBjZQ-wbiQiTnPwOBnZptf_yfVzvHrhjhxNQvsYJZlWAqenTNqsNCelbpVPPlq4fBxIggSduL5GUCC6K4jheYL1nl42KnHSc1fN115xePmUBtch0cwwcOtgSAZ7w14p2wZRhQN2r6A1uTRy_46ZRcHQoWsN-pPB_wU3R4s3y1BKjepiVYu3WqkfXVhmcwdylC1V5IWrl_ngq-AQOMBIdE8pqTdL6mLKfM6bzFf-0DhA2ka12odVIV4Kz8A22jCHKsK7GXu2YIRhKJ6eGcdzaUEl3PVYkHdR5z4_GayDhHgma6AAAAAVG25UEA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
